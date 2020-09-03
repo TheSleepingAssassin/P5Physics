@@ -9,7 +9,7 @@ function draw() {
   background(51);
   b.run();
   stroke(255);
-  text("Hold mouse for wind in the direction you want", 0, 0);
+  text("Hold mouse for wind in the direction you want", 10, 10);
   if (mouseIsPressed) {
     if (mouseX < b.pos.x) {
       let w = createVector(0.4, 0);
